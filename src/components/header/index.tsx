@@ -31,8 +31,8 @@ const Header = () => {
         <div className={styles.contents}>
           <p className={styles.content}>Projects</p>
           <p className={styles.content}>Skills</p>
-          <p className={styles.content}>About</p>
           <p className={styles.content}>Resume</p>
+          <p className={styles.content}>About</p>
         </div>
         <p className={styles.contact}>Contact</p>
       </div>

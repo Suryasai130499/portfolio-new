@@ -1,13 +1,17 @@
 .bioWrapper {
   position: relative;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
   margin-inline: auto;
   width: 90%;
   max-width: 950px;
   margin-block: 8rem;
-  gap: 3rem;
+  gap: 2rem;
+  height: 100%;
+}
+
+.bioWrapper > p {
+  font-size: var(--step-3);
 }
 
 .dots {
@@ -18,11 +22,19 @@
   z-index: 0;
 }
 
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+
 .image {
   position: relative;
   flex-grow: 1;
   flex-shrink: 0;
-  width: 550px;
+  width: 450px;
   max-width: 65%;
   aspect-ratio: 9 / 16;
   box-sizing: content-box;
@@ -43,4 +55,19 @@
   font-weight: 400;
   color: #0e0e0e;
   z-index: 1;
+}
+
+.text > b {
+  color: #d9189c;
+  text-decoration: underline;
+}
+
+.button {
+  font-family: 'Dancing Script', cursive;
+  font-size: var(--step-0);
+  width: max-content;
+  padding: 0.5rem 1rem;
+  background-color: #d9189c;
+  color: #ffffff;
+  align-self: flex-end;
 }
