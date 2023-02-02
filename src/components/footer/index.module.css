@@ -1,0 +1,14 @@
+.footer {
+  width: 100vw;
+}
+
+.footerContent {
+  max-width: 720px;
+  width: 90%;
+  margin-inline: auto;
+  padding-block: 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--step--2);
+  color: rgba(0, 0, 0, 0.7);
+}

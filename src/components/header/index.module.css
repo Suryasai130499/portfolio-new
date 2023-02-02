@@ -1,0 +1,45 @@
+.head {
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  height: 70px;
+  z-index: 2;
+  transition: background-color 0.3s linear, color 0.3s linear;
+  color: #ffffff;
+}
+
+.head.scrolled {
+  background-color: rgba(225 225 225);
+  color: #0e0e0e;
+}
+
+.header {
+  width: 90%;
+  max-width: 1140px;
+  margin-inline: auto;
+  padding-block: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home {
+  font-family: 'Anton', sans-serif;
+  font-size: var(--step-1);
+}
+
+.contents {
+  font-size: var(--step--1);
+  display: flex;
+  gap: 3rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.head.scrolled .contents {
+  color: rgba(0 0 0 / 0.7);
+}
+
+.contact {
+  font-size: var(--step-1);
+  font-family: 'Anton', sans-serif;
+}

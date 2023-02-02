@@ -1,0 +1,44 @@
+.hero {
+  position: relative;
+  width: 100vw;
+  aspect-ratio: 16 / 7;
+  z-index: 1;
+}
+
+.hero > img {
+  position: absolute;
+  inset: 0;
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0 0 0 / 0.5);
+  z-index: 2;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  text-align: center;
+  color: #efe3e4;
+}
+
+.name {
+  font-size: var(--step-4);
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.description {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: var(--step-2);
+  font-weight: 400;
+}
