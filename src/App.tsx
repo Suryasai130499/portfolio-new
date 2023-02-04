@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/header';
 import Footer from './components/footer';
 import Home from './components/home';
+import Projects from './components/projects';
 
 import './App.css';
 
@@ -16,6 +17,16 @@ function App() {
               <>
                 <Header />
                 <Home />
+                <Footer />
+              </>
+            }
+          ></Route>
+          <Route
+            path="/projects"
+            element={
+              <>
+                <Header />
+                <Projects />
                 <Footer />
               </>
             }

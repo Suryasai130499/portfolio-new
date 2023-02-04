@@ -3,7 +3,8 @@
   display: flex;
   width: 100vw;
   height: 80px;
-  z-index: 2;
+  z-index: 999;
+  top: 0;
   transition: background-color 0.3s linear, color 0.3s linear;
   color: #ffffff;
 }
